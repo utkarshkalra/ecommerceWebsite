@@ -1,0 +1,32 @@
+.homepage-about {
+  color: #555;
+  min-height: 80vh;
+  margin: 5.5rem !important;
+}
+
+.homepage-about h1 {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: var(--brand-color);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.homepage-about .count {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: black;
+}
+
+.homepage-about .count2 {
+  color: var(--brand-color);
+}
+
+.homepage-about .quote-icon {
+  font-size: 2.2rem;
+}
+
+.homepage-about p {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}

@@ -1,0 +1,18 @@
+.card {
+  width: 100%;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px !important;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-bottom: 1px solid #cecece;
+}
+
+.card .total-row {
+  margin: 20px 0px 5px 0;
+  margin-top: 20px;
+  border-top: 2px solid gray;
+  padding-top: 10px;
+}

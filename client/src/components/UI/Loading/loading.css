@@ -1,0 +1,54 @@
+.loading-div {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 80vh;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-div h1 {
+  margin: 5px;
+}
+
+.loadingOuter {
+  position: relative;
+  width: 256px;
+  height: 4px;
+
+  background: rgba(224, 14, 33, 0.2);
+}
+
+.loadingInner {
+  position: absolute;
+  width: 0px;
+  height: 4px;
+  left: 0px;
+  background: rgba(224, 14, 33, 0.2);
+  animation: 2s infinite linear loadingAnimation;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    left: 0px;
+    width: 0px;
+  }
+
+  25% {
+    left: 0px;
+    width: 100px;
+  }
+
+  70% {
+    left: 200px;
+    width: 56px;
+  }
+
+  90% {
+    left: 256px;
+    width: 0px;
+  }
+}

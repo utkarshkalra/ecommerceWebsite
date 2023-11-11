@@ -1,0 +1,158 @@
+.cartCheckoutContainer {
+  max-width: 1260px;
+  margin: 15px auto;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  min-height: 90vh;
+  width: 90vw;
+  align-items: start;
+  display: flex;
+}
+
+.checkoutContainer {
+  width: 100%;
+  flex: 4;
+}
+.checkoutStep {
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.msg-div {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.checkoutHeader {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.checkoutHeader.active {
+  background: var(--brand-color-dark);
+}
+
+.checkoutHeader.done {
+  background: green;
+  color: var(--font-color-2);
+}
+.checkoutHeader .stepNumber {
+  display: inline-block;
+  text-align: center;
+  background: #eee;
+  color: #2874f0;
+  border-radius: 3px;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 3px 7px;
+}
+.checkoutHeader.active .stepNumber {
+  background: #fff;
+}
+.stepTitle {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #878787;
+  margin-left: 15px;
+}
+
+.done .stepTitle {
+  color: var(--font-color-2);
+}
+.checkoutHeader.active .stepTitle {
+  color: #fff;
+}
+.loggedInId {
+  font-size: 12px;
+  /* margin: 0px 0 10px 60px; */
+}
+
+.addressContainer {
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f5faff;
+}
+.addressinfo {
+  padding-left: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.addressDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #333;
+}
+.addressType {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  background: #eee;
+  font-weight: 500;
+  padding: 1px 5px;
+  font-size: 10px;
+  border-radius: 2px;
+  color: #777777;
+}
+.fullAddress {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+.stepCompleted {
+  padding: 20px 60px;
+  background: #8adb8a;
+}
+
+.deliver-btn {
+  width: 175px;
+  margin: 10px 0px;
+  background: #2873f0;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 3px;
+}
+
+.deliver-btn:hover {
+  background: #1758c9;
+}
+
+.razorpay-btn {
+  padding: 4px 4px 4px 7px;
+  background: var(--brand-color-dark);
+  display: flex;
+  color: white;
+  font-size: small;
+  font-weight: 500;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 15px;
+}
+
+.razorpay-btn span {
+  margin-right: 10px;
+  min-width: 117px;
+}
+
+.razorpay-logo {
+  width: 104px;
+  border-radius: 5px;
+  height: 40px;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}

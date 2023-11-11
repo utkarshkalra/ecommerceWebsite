@@ -1,0 +1,96 @@
+:root {
+  --light-font: "Roboto", sans-serif;
+  --bold-font: "PT Sans", sans-serif;
+  --cursive-font: "Dancing Script", cursive;
+  --bg: #f4f6f8;
+  --font-color: #434344;
+  --brand-color: #e00e21;
+  --brand-color-dark: #a50609;
+  /* --brand-color: rgb(0, 131, 0);
+  --brand-color-dark: darkgreen; */
+  --font-color-2: white;
+  --navbar-color: #eee;
+  --footer-color: rgb(222 222 222);
+  --price-color: green;
+}
+
+body {
+  background-color: var(--bg);
+  margin: 0;
+  font-family: var(--light-font);
+  font-weight: 400;
+  color: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--font-color-2);
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none !important;
+}
+
+.materialButton {
+  background-color: var(--brand-color-dark) !important;
+  font-weight: 600;
+  border: 1px solid transparent !important;
+  border-radius: 5px !important;
+}
+
+.materialButton:hover {
+  background-color: var(--font-color-2) !important;
+  color: var(--brand-color-dark) !important;
+  border: 1px solid var(--brand-color-dark) !important;
+}
+
+.wa-chat-box-poweredby {
+  display: none !important;
+}
+
+a.cart {
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--font-color);
+  border-radius: 50%;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+  margin: 0;
+  padding: 0;
+}
+
+a.cart:hover {
+  color: #fff;
+}
+
+/* .navbar .show {
+  display: flex;
+} */
+
+h1,
+h2 {
+  font-family: var(--cursive-font);
+  font-size: calc(2rem + 0.9vw) !important;
+  font-weight: 500;
+}

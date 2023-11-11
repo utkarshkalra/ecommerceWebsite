@@ -1,0 +1,56 @@
+footer {
+  background-color: var(--brand-color-dark);
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: #111;
+  position: relative;
+  top: -40px;
+}
+
+.footer .logo img {
+  width: 100px;
+  height: auto;
+  align-self: center;
+}
+
+.footer a {
+  color: var(--font-color-2);
+}
+
+.footer h5 {
+  color: var(--brand-color);
+  font-weight: 600;
+}
+
+.footer a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.footer .btn-send {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-color-dark);
+  color: var(--font-color-2);
+}
+
+.footer .btn-send:hover {
+  background-color: var(--brand-color);
+  color: var(--font-color-2);
+}
+.footer li {
+  margin: 5px;
+}
+.footer ul svg {
+  margin: 5px;
+  width: 20px;
+  color: var(--brand-color);
+}
+
+footer .gx-5 {
+  --bs-gutter-x: 0rem !important;
+}

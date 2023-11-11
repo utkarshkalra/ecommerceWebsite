@@ -1,0 +1,90 @@
+.contact-container {
+  /* background-color: var(--brand-color-dark); */
+  min-height: 80vh;
+  padding-bottom: 100px;
+  color: #555;
+}
+.contact-container .contact-left {
+  overflow: hidden;
+  border-radius: 15px;
+  width: 40vw;
+  height: 80vh;
+  margin-top: 30px;
+}
+.contact-container img {
+  width: auto;
+  height: 100%;
+}
+
+.contact-right {
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  min-width: 300px;
+  width: 80%;
+  margin: auto;
+  margin-left: 200px;
+}
+
+.contact-right li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 200px;
+  height: 40px;
+}
+.contact-right p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 2rem;
+}
+.contact-right i {
+  font-size: 2.2rem;
+}
+.contact-right a {
+  color: var(--brand-color);
+  /* padding-bottom: 4px; */
+  /* margin-bottom: 3px; */
+
+  width: fit-content;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.contact-right a:hover {
+  font-weight: 800;
+  color: var(--brand-color);
+}
+@media screen and (max-width: 768px) {
+  .contact-container {
+    /* background-color: var(--brand-color-dark); */
+    min-height: auto;
+    padding-bottom: 100px;
+  }
+
+  .contact-container .container {
+    height: 100%;
+  }
+
+  .contact-container .contact-right {
+    /* align-items: center; */
+    margin-left: auto;
+  }
+
+  .contact-right p {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .contact-right i {
+    font-size: 1.5rem;
+  }
+  .contact-right a {
+    font-size: 1.1rem;
+  }
+}
